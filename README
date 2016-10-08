@@ -1,0 +1,9 @@
+This implementation should build without a fuss on all BSDs and Darwin.
+
+It depends on the err(3) API and sysexits(3).
+
+Aside from that, it is written in ANSI C.
+
+To build fizzbuzz, do
+
+	make fizzbuzz

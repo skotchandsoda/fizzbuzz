@@ -25,7 +25,6 @@
 void
 usage(int unused)
 {
-        (void)unused;
 	fprintf(stderr, "usage: fizzbuzz n\n");
 }
 

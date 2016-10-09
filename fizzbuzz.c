@@ -56,7 +56,7 @@ main(int argc, char **argv)
 	 * The FizzBuzz print loop.
 	 */
 
-	for (i = 1; i < n+1; i++) {
+	for (i = 1; i <= n; i++) {
 		if (i % 3 == 0 || i % 5 == 0) {
 			if (i % 3 == 0)
 				(void)printf("Fizz");
